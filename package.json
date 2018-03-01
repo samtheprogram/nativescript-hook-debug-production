@@ -6,8 +6,8 @@
   "nativescript": {
     "hooks": [
       {
-        "type": "after-prepare",
-        "script": "after-prepare-hook.js",
+        "type": "before-prepare",
+        "script": "before-prepare-hook.js",
         "inject": true
       }
     ]
